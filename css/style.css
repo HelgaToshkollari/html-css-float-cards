@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 920px;
+    margin: auto;
+   
+}
+.title{
+    text-align: center;
+    padding: 2rem;
+}
+
+.title h1 {
+    color: rgb(254, 72, 133);
+    font-size: 2.5rem;
+    
+}
+.intro {
+    text-align: center;
+}
+.container{
+    width: 920px;
+    margin: auto;
+    padding-top: 5rem;
+}
+.first-card{
+    background-color: black;
+    display: inline-block;
+    float: left;
+    width: 350px;
+    margin: 10px;
+    width: calc((100% / 3) - 20px);
+    float: left;
+    
+}
+
+.team-member{
+    color: white;
+
+}
+.team-member img{
+    float: left;
+    width: 30%;
+    display: inline-block;
+}
+.info{
+    display: inline-block;
+    padding: 0.1rem;
+}
+    
+.info h1{
+    font-size:1rem;
+}
+.info ul{
+    list-style: none;
+}
+.info ul li{
+    padding: 0.5rem;
+}
