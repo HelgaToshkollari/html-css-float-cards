@@ -27,39 +27,33 @@ header{
 .container{
     width: 920px;
     margin: auto;
-    padding-top: 5rem;
-}
-.first-card{
-    background-color: black;
-    display: inline-block;
-    float: left;
-    width: 350px;
-    margin: 10px;
-    width: calc((100% / 3) - 20px);
-    float: left;
-    
+    padding-top: 4rem;
 }
 
 .team-member{
     color: white;
-
+    background-color: black;
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+    width: calc((100% / 3) - 20px);
+    float: left;
 }
+
 .team-member img{
     float: left;
     width: 30%;
-    display: inline-block;
+    margin-right: 1rem;
 }
-.info{
-    display: inline-block;
-    padding: 0.1rem;
-}
-    
+  
 .info h1{
     font-size:1rem;
 }
 .info ul{
     list-style: none;
+    display: inline-block;
 }
 .info ul li{
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
+
